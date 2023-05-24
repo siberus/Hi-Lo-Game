@@ -15,11 +15,19 @@ int getRandomNumber()
 
 int main()
 {
+    std::cout << "Let's play in Hi-Lo game!" << std::endl;
+    std::cout << "You have 7 attempts to guess a number from 0 to 100." << std::endl;
     while (true)
     {
         // устанавливаем значение системных часов в качестве стартового числа
         srand(static_cast<unsigned int>(time(0)));
         int digit =  getRandomNumber();
+        for (int attempt = 0; attempt <= 7; attempt++)
+        {
+            //Функция ввода числа
+
+        }
+        
 
     }
     
